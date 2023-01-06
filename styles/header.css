@@ -21,13 +21,14 @@
 	height: 50vh;
 }
 .header-intro h1 {
+	font-size: 45px;
 }
 .header-intro p {
 	margin: 1rem 0;
 	color: #e5e2e1;
 	max-width: 500px;
 }
-.header-intro button {
+button {
 	cursor: pointer;
 	background: #ff5e5d;
 	color: white;

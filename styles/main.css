@@ -1,0 +1,55 @@
+.main {
+	max-width: 1140px;
+	margin: 5rem auto;
+}
+.select-amount {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h2 {
+	margin: 1rem;
+}
+.select-amount p {
+	max-width: 500px;
+	text-align: center;
+}
+ul {
+	position: relative;
+	display: flex;
+	margin: 1rem 0;
+	list-style: none;
+}
+li {
+	width: 70px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: tomato;
+	background: #fafafa;
+	margin-right: 0.5rem;
+	border-radius: 2px;
+	cursor: pointer;
+	/* position: absolute; */
+}
+li:hover {
+	background: #ffeeee;
+	border: 1px solid #ffc7c7;
+}
+.inputamount {
+	width: 500px;
+	margin-bottom: 1rem;
+	border-bottom: 1px solid #ffeeee;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	text-align: center;
+	outline: none;
+	padding-bottom: 0.2rem;
+	font-size: 17px;
+}
+.inputamount :focus {
+	border-bottom: 1px solid red;
+}
