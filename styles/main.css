@@ -76,13 +76,42 @@ li:hover {
 	flex-direction: column;
 	background-color: #ffeeee;
 }
-.plan img{
+.plan img {
 	width: 40px;
 }
-.plan h4{
-	margin: .7rem 0;
+.plan h4 {
+	margin: 0.7rem 0;
 }
-.plan:hover{
-	background-color: #FFF5D8;
+.plan:hover {
+	background-color: #fff5d8;
 	cursor: pointer;
+}
+
+/* gallary section  */
+.gallary {
+	margin: 5rem 0;
+}
+.gallary-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.gallary-ls {
+	width: 45%;
+}
+.gallary-ls h3 {
+	font-size: 35px;
+}
+.gallary-ls p {
+	margin: 1rem 0;
+}
+.gallary-rs {
+	width: 45%;
+}
+.gallary-rs img {
+	width: 100%;
+	height: 100%;
+}
+p {
+	color: #707070;
 }
