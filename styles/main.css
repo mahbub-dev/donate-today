@@ -53,3 +53,36 @@ li:hover {
 .inputamount :focus {
 	border-bottom: 1px solid red;
 }
+
+/* planning section here  */
+.plan-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 5rem 0;
+}
+.plan-container > p {
+	max-width: 500px;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.plans {
+	display: flex;
+}
+.plan {
+	padding: 1rem;
+	margin-right: 1rem;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffeeee;
+}
+.plan img{
+	width: 40px;
+}
+.plan h4{
+	margin: .7rem 0;
+}
+.plan:hover{
+	background-color: #FFF5D8;
+	cursor: pointer;
+}
