@@ -115,3 +115,30 @@ li:hover {
 p {
 	color: #707070;
 }
+
+/* newslater section  */
+.newslater {
+	display: flex;
+	margin: 5rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.newslater p {
+	margin-bottom: 2rem;
+	max-width: 400px;
+	text-align: center;
+}
+.input-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 7rem;
+	background-color: #fff5d8;
+}
+.input-box input {
+	padding: 0.7rem 1rem;
+	background-color: #d9d9d9;
+	outline: none;
+	border: none;
+}
