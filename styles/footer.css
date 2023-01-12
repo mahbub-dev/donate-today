@@ -1,13 +1,24 @@
 .footer {
-	background-color: #0B0D16;
+	background-color: #0b0d16;
 	display: flex;
-    font-size: 14px;
-    color: white;
+	font-size: 14px;
+	color: white;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-    padding: 2rem 0;
+	padding: 2rem 0;
 }
-footer span{
-       font-size: 13px;
+footer span {
+	font-size: 13px;
+}
+
+@media screen and (max-width:576px) {
+	
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+	
+}
+
+.hide {
+	display: none;
 }

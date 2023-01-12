@@ -41,7 +41,7 @@ li:hover {
 .inputamount {
 	width: 500px;
 	margin-bottom: 1rem;
-	border-bottom: 1px solid #ffeeee;
+	border-bottom: 1px solid #fac8c8;
 	border-top: none;
 	border-right: none;
 	border-left: none;
@@ -52,6 +52,24 @@ li:hover {
 }
 .inputamount :focus {
 	border-bottom: 1px solid red;
+}
+
+@media screen and (max-width: 576px) {
+	.main {
+		margin: 2rem auto;
+	}
+	.select-amount ul > li {
+		width: 60px;
+		font-size: 14px;
+	}
+	.inputamount {
+		width: 90%;
+	}
+	.select-amount p {
+		margin: 0 1rem;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
 }
 
 /* planning section here  */
@@ -68,10 +86,13 @@ li:hover {
 }
 .plans {
 	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
 }
 .plan {
+	width: 250px;
 	padding: 1rem;
-	margin-right: 1rem;
 	display: flex;
 	flex-direction: column;
 	background-color: #ffeeee;
@@ -86,7 +107,29 @@ li:hover {
 	background-color: #fff5d8;
 	cursor: pointer;
 }
-
+@media screen and (max-width: 576px) {
+	.plan-container{
+		margin: 2rem 0;
+}
+	.plan-container .plans {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.plan-container .plans .plan {
+		width: unset;
+		margin: 0 1rem;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.plan-container .plans {
+		gap: 16px;
+	}
+	.plan-container .plans .plan {
+		width: unset;
+		margin: 0 1rem;
+	}
+}
 /* gallary section  */
 .gallary {
 	margin: 5rem 0;
@@ -115,7 +158,36 @@ li:hover {
 p {
 	color: #707070;
 }
-
+@media screen and (max-width: 576px) {
+	.gallary-item {
+		margin: 01rem;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.gallary-rs {
+		width: 100%;
+	}
+	.gallary-ls {
+		width: 100%;
+	}
+	.gallary-ls h3 {
+		font-size: 25px;
+	}
+	.reverse {
+		flex-direction: column-reverse;
+		margin-top: 2rem;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.gallary-item {
+		justify-content: center;
+		gap: 40px;
+		margin-bottom: 2rem;
+	}
+	.gallary-ls h3 {
+		font-size: 30px;
+	}
+}
 /* newslater section  */
 .newslater {
 	display: flex;
@@ -141,4 +213,21 @@ p {
 	background-color: #d9d9d9;
 	outline: none;
 	border: none;
+}
+@media screen and (max-width: 576px) {
+	.newslater {
+		margin: 1rem;
+	}
+	.input-box {
+		padding: 3rem 1rem;
+	}
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+	.plan-container .plans {
+		gap: 16px;
+	}
+	.plan-container .plans .plan {
+		width: unset;
+		margin: 0 1rem;
+	}
 }
